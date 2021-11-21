@@ -1,11 +1,14 @@
+import { ThemeProvider } from '@emotion/react';
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import { theme } from './src/styles/global';
 import { Home } from './src/views/home';
 
 export default function App() {
   return (
     <>
-      <Home />
+      <ThemeProvider theme={theme}>
+        <Home />
+      </ThemeProvider>
       <StatusBar style="auto" />
     </>
   );
