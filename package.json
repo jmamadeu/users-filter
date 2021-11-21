@@ -1,0 +1,49 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "lint": "eslint --quiet --fix './src/**/*.{ts,tsx}'",
+    "prepare": "husky install",
+    "debug": "react-devtools"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "axios": "^0.24.0",
+    "expo": "~43.0.2",
+    "expo-status-bar": "~1.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.8.0",
+    "react-native-web": "0.17.1",
+    "react-query": "^3.32.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.0",
+    "git-commit-msg-linter": "^3.2.8",
+    "husky": "^7.0.0",
+    "prettier": "^2.4.1",
+    "react-devtools": "^4.21.0",
+    "typescript": "~4.3.5"
+  },
+  "private": true
+}
