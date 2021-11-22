@@ -31,3 +31,10 @@ export const TextInputStyled = styled.TextInput`
   font-size: 20px;
   color: ${(props) => props.theme.colors.darkBlue};
 `;
+
+export const ListContainer = styled.View`
+  margin-bottom: 65px;
+  margin-top: 10px;
+`;
+
+export const UsersList = styled.FlatList``;
