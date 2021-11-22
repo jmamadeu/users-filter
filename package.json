@@ -26,6 +26,7 @@
     "react-native": "0.64.3",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.8.0",
+    "react-native-vector-icons": "^9.0.0",
     "react-native-web": "0.17.1",
     "react-query": "^3.32.3"
   },
@@ -35,6 +36,7 @@
     "@commitlint/config-conventional": "^14.1.0",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
+    "@types/react-native-vector-icons": "^6.4.10",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
     "eslint": "^8.2.0",
